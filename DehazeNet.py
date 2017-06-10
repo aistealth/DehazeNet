@@ -80,7 +80,7 @@ def Recover(im,t,A,tx = 0.1):
 
 if __name__ == '__main__':
 	if not len(sys.argv) == 2:
-		print 'Usage: python DeHazeNet.py haze_img_path'
+		print ('Usage: python DeHazeNet.py haze_img_path')
 		exit()
 	else:
 		im_path = sys.argv[1]
